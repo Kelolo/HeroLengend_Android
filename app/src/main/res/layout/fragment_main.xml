@@ -30,8 +30,8 @@
             android:paddingTop="10dp" />
 
         <Button
-            android:text="Button"
-            android:id="@+id/button"
+            android:text="CAME BY ACCIDENT"
+            android:id="@+id/accidentBtn"
             tools:text="CAME BY ACCIDENT"
             android:background="@drawable/hero_btn"
             android:textSize="20sp"
@@ -39,15 +39,14 @@
             android:textStyle="normal|bold"
             android:layout_marginTop="15dp"
             android:drawableLeft="@drawable/lightning"
-            android:drawableRight="@drawable/item_selected_btn"
             android:layout_width="300dp"
             android:paddingLeft="7dp"
             android:paddingRight="7dp"
             android:layout_height="55dp" />
 
         <Button
-            android:text="Button"
-            android:id="@+id/button2"
+            android:text="GENETIC MUTATION"
+            android:id="@+id/geneticBtn"
             tools:text="GENETIC MUTATION"
             android:background="@drawable/hero_btn"
             android:textSize="20sp"
@@ -55,15 +54,14 @@
             android:textStyle="normal|bold"
             android:layout_marginTop="15dp"
             android:drawableLeft="@drawable/atomic"
-            android:drawableRight="@drawable/item_selected_btn"
             android:layout_width="300dp"
             android:paddingLeft="7dp"
             android:paddingRight="7dp"
             android:layout_height="55dp" />
 
         <Button
-            android:text="Button"
-            android:id="@+id/button3"
+            android:text="BORN WITH THEM"
+            android:id="@+id/bornBtn"
             tools:text="BORN WITH THEM"
             android:background="@drawable/hero_btn"
             android:textSize="20sp"
@@ -71,15 +69,14 @@
             android:textStyle="normal|bold"
             android:layout_marginTop="15dp"
             android:drawableLeft="@drawable/rocket"
-            android:drawableRight="@drawable/item_selected_btn"
             android:layout_width="300dp"
             android:paddingLeft="7dp"
             android:paddingRight="7dp"
             android:layout_height="55dp" />
 
         <Button
-            android:text="Button"
-            android:id="@+id/button4"
+            android:text="CHOOSE POWERS"
+            android:id="@+id/chooseBtn"
             tools:text="CHOOSE POWERS"
             android:background="@drawable/hero_solid_btn2"
             android:textSize="20sp"
