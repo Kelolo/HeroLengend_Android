@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.cz264.herolegend.Activity.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/topbannerbar"
+        android:minHeight="?attr/actionBarSize"
+        android:id="@+id/toolbar"/>
 
     <FrameLayout
         xmlns:tools="http://schemas.android.com/tools"
@@ -14,4 +22,4 @@
         android:layout_height="match_parent">
     </FrameLayout>
 
-</RelativeLayout>
+</LinearLayout>
